@@ -1,12 +1,10 @@
 
-    
-  
 var eight = document.getElementById("eight");
 var answer = document.getElementById("answer");
 var eightball = document.getElementById("eight-ball");
 var question = document.getElementById("question");
 
-       
+
 button.addEventListener("click", function(){
     if (input.value.length < 1) {
       alert("The Magic 8 Ball isn't telepathic yet...please type out your question <3");
@@ -16,10 +14,7 @@ button.addEventListener("click", function(){
         var num = input.value.length % options.length;
         answer.innerText = options[num];
       }
-  });
-
-
-
+    });
 
 
     var options = [
@@ -44,3 +39,20 @@ button.addEventListener("click", function(){
         "I'm hungover, ask later", 
         "Concentrate and ask again"
     ];
+
+
+  //   function expand(textbox) {
+  //     if (!textbox.startW) { textbox.startW = textbox.offsetWidth; }
+  
+  //     var style = textbox.style;
+  
+  //     //Force complete recalculation of width
+  //     //in case characters are deleted and not added:
+  //     style.width = 0;
+  
+  //     var desiredW = textbox.scrollWidth;
+  //     //Optional padding to reduce "jerkyness" when typing:
+  //     desiredW += textbox.offsetHeight;
+  
+  //     style.width = Math.max(desiredW, textbox.startW) + 'px';
+  // }
