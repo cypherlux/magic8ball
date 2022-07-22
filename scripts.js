@@ -39,20 +39,3 @@ button.addEventListener("click", function(){
         "I'm hungover, ask later", 
         "Concentrate and ask again"
     ];
-
-
-  //   function expand(textbox) {
-  //     if (!textbox.startW) { textbox.startW = textbox.offsetWidth; }
-  
-  //     var style = textbox.style;
-  
-  //     //Force complete recalculation of width
-  //     //in case characters are deleted and not added:
-  //     style.width = 0;
-  
-  //     var desiredW = textbox.scrollWidth;
-  //     //Optional padding to reduce "jerkyness" when typing:
-  //     desiredW += textbox.offsetHeight;
-  
-  //     style.width = Math.max(desiredW, textbox.startW) + 'px';
-  // }
